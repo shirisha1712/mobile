@@ -94,7 +94,7 @@ export const OfferSectionSubsection = (): JSX.Element => {
 
   return (
     <ScrollArea className="w-full h-[165px] overflow-hidden">
-      <div className="flex space-x-5 p-1 relative">
+      <div className="flex space-x-[2cm] p-1 relative">
         {offerCards.map((card) => (
           <div
             key={card.id}
