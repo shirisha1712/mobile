@@ -38,7 +38,7 @@ export const Home = (): JSX.Element => {
         {/* Main content container with proper spacing */}
         <div className="px-4 pb-20">
           {/* Red rectangle box - moved above carousel */}
-          <div className="mb-4">
+          <div className="mb-4 mt-4">
             <ContainerSubsection />
           </div>
 
@@ -93,65 +93,6 @@ export const Home = (): JSX.Element => {
             </div>
             
             <OfferSectionSubsection />
-          </div>
-
-          {/* 3 Food Cards in horizontal line */}
-          <div className="mb-6">
-            <div className="flex gap-3 overflow-x-auto pb-2">
-              <div className="flex-shrink-0 w-[120px]">
-                <div className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100">
-                  <div className="relative h-20 bg-gradient-to-br from-orange-100 to-orange-200">
-                    <div className="absolute top-1 left-1 bg-red-500 text-white text-xs px-2 py-0.5 rounded-md font-semibold">
-                      Free Delivery
-                    </div>
-                  </div>
-                  <div className="p-2">
-                    <h4 className="font-semibold text-sm text-gray-800 truncate">Pizza Palace</h4>
-                    <p className="text-xs text-gray-500">Italian</p>
-                    <div className="flex items-center justify-between mt-1">
-                      <span className="text-xs font-medium text-gray-600">4.5 ⭐</span>
-                      <span className="text-xs text-red-500">25 mins</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="flex-shrink-0 w-[120px]">
-                <div className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100">
-                  <div className="relative h-20 bg-gradient-to-br from-green-100 to-green-200">
-                    <div className="absolute top-1 left-1 bg-red-500 text-white text-xs px-2 py-0.5 rounded-md font-semibold">
-                      Free Delivery
-                    </div>
-                  </div>
-                  <div className="p-2">
-                    <h4 className="font-semibold text-sm text-gray-800 truncate">Burger Hub</h4>
-                    <p className="text-xs text-gray-500">Fast Food</p>
-                    <div className="flex items-center justify-between mt-1">
-                      <span className="text-xs font-medium text-gray-600">4.2 ⭐</span>
-                      <span className="text-xs text-red-500">20 mins</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="flex-shrink-0 w-[120px]">
-                <div className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100">
-                  <div className="relative h-20 bg-gradient-to-br from-blue-100 to-blue-200">
-                    <div className="absolute top-1 left-1 bg-red-500 text-white text-xs px-2 py-0.5 rounded-md font-semibold">
-                      Free Delivery
-                    </div>
-                  </div>
-                  <div className="p-2">
-                    <h4 className="font-semibold text-sm text-gray-800 truncate">Sushi Bar</h4>
-                    <p className="text-xs text-gray-500">Japanese</p>
-                    <div className="flex items-center justify-between mt-1">
-                      <span className="text-xs font-medium text-gray-600">4.7 ⭐</span>
-                      <span className="text-xs text-red-500">35 mins</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
 
           {/* Restaurants Near You section */}
